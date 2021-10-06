@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JSMSolver.Research</name>
+    </assembly>
+    <members>
+        <member name="T:JSMSolver.Research.ERType">
+            <summary>Empirical regularities</summary>
+        </member>
+        <member name="F:JSMSolver.Research.ERType.EL">
+            <summary>Empirical laws</summary>
+        </member>
+        <member name="F:JSMSolver.Research.ERType.ET">
+            <summary>Empirical trends</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ER.ChainData`2.Chain">
+            <summary>Последовательность знаков</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ER.ChainData`2.Hyps">
+            <summary>Гипотезы</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ER.ChainData`2.Count">
+            <summary>Количество гипотез</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ER.ChainData`2.Dimension">
+            <summary>Длина цепи</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ER.ChainData`2.IsLaw">
+            <summary>Закон</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ER.ChainData`2.IsTrend">
+            <summary>Тенденция</summary>
+        </member>
+        <member name="M:JSMSolver.Research.ER.Services.ERCreateService.FindCodes``2(System.Collections.Generic.Dictionary{JSMBase.Signs,System.Collections.IList}[],System.Collections.Generic.Dictionary{JSMBase.Signs,System.Collections.IList}[],System.Collections.Generic.Dictionary{System.String,JSMBase.Signs})">
+            <summary>Построение кодов гипотез</summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TData"></typeparam>
+            <param name="arr">Массив</param>
+            <returns>Коды</returns>
+        </member>
+        <member name="T:JSMSolver.Research.ResearchData`2">
+            <summary>Данные для исследования</summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TData"></typeparam>
+        </member>
+        <member name="P:JSMSolver.Research.ResearchData`2.Data">
+            <summary>Массив данных</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ResearchData`2.Restrictions">
+            <summary>Ограничения на родителей</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ResearchDataHyp`2.Data">
+            <summary>Data array</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ResearchDataHyp`2.Hyps">
+            <summary>Hypotheses</summary>
+        </member>
+        <member name="P:JSMSolver.Research.ResearchDataHyp`2.Preds">
+            <summary>Predictions</summary>
+        </member>
+        <member name="T:JSMSolver.Research.ResearchResult`2">
+            <summary>Result of a research</summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TData"></typeparam>
+        </member>
+        <member name="P:JSMSolver.Research.ResearchResult`2.Data">
+            <summary>Data (codes)</summary>
+        </member>
+        <member name="M:JSMSolver.Research.v1.Researcher`2.GetRegularities(JSMSolver.Research.ERType,JSMBase.Signs)">
+            <summary></summary>
+            <param name="type">Regularity type; if None, then all</param>
+            <param name="sgs">Sign type; if None, then all</param>
+            <returns></returns>
+        </member>
+        <member name="T:JSMSolver.Research.v2.ResearchDataWorld`2">
+            <summary>Data for one World</summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TData"></typeparam>
+        </member>
+        <member name="P:JSMSolver.Research.v2.ResearchDataWorld`2.WorldData">
+            <summary>Data for Any BF Extension in World</summary>
+        </member>
+    </members>
+</doc>

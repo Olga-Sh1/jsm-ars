@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.1-beta2</Version>
+    <Authors>JSMTeam</Authors>
+    <Company>JSMTeam</Company>
+    <Description>Classes for research (JSM-method ARS)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://shosyk.visualstudio.com/JSM</RepositoryUrl>
+    <PackageTags>JSM</PackageTags>
+    <PackageProjectUrl>https://shosyk.visualstudio.com/JSM</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\TFS\JSM\JSMApp\JSMSolver.Research\JSMSolver.Research.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JSMBase.Medicine\JSMBase.Medicine.csproj" />
+    <ProjectReference Include="..\JSMSolver\JSMSolver.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>JSM.BFSettings</PackageId>
+    <Authors>JSMTeam</Authors>
+    <Company>JSMTeam</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>JSM</PackageTags>
+    <Version>1.0.1-beta1</Version>
+  </PropertyGroup>
+
+</Project>

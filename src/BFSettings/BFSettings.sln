@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BFSettings", "BFSettings\BFSettings.csproj", "{6393C16F-10AD-4FB5-A4C4-0C84137CEA1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6393C16F-10AD-4FB5-A4C4-0C84137CEA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6393C16F-10AD-4FB5-A4C4-0C84137CEA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6393C16F-10AD-4FB5-A4C4-0C84137CEA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6393C16F-10AD-4FB5-A4C4-0C84137CEA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C43F1A47-1844-4E24-A200-924BC05CCEE0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shosyk.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BFSettings\\BFSettings.csproj
+		SccProjectName1 = BFSettings
+		SccLocalPath1 = BFSettings
+	EndGlobalSection
+EndGlobal

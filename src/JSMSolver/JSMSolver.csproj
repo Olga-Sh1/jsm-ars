@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>JSMTeam</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://shosyk.visualstudio.com/JSM</PackageProjectUrl>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <Version>1.0.1-beta1</Version>
+    <Authors>JSMTeam</Authors>
+    <PackageTags>JSM</PackageTags>
+    <Description>Classes for reasoning (JSM-Method ARS)</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Progress\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JSMBaseC\JSMBaseC\JSMBaseC.csproj" />
+  </ItemGroup>
+
+</Project>
